@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@media (max-width: 576px) {
+  section .txt {
+    margin-top: 13vh;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .description {
+    padding: 1em 3em;
+    font-size: 1.063rem;
+    line-height: 1.375rem;
+  }
+
+  .title-exp {
+    margin-top: 50px;
+  }
+
+  .work-exp,
+  .work-exp2 {
+    padding: 0 3rem;
+  }
+
+  .edu-desc {
+    padding: 0 3rem;
+  }
+
+  .desc-certif,
+  .desc-skills,
+  .desc-lang {
+    padding: 0 3rem;
+  }
+
+  .title-exp,
+  .title-edu,
+  .title-certif,
+  .title-skills,
+  .title-lang,
+  .contact {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  section .txt {
+    margin-top: 15vh;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .description {
+    padding: 1em 2.5em;
+    text-align: justify;
+    font-size: 1.188rem;
+    line-height: 1.5rem;
+  }
+
+  .work-exp,
+  .work-exp2 {
+    padding: 0 3rem;
+  }
+
+  .edu-desc {
+    padding: 0 3rem;
+  }
+
+  .title-exp,
+  .title-edu,
+  .title-certif,
+  .title-skills,
+  .title-lang,
+  .contact {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  section .txt {
+    margin-top: 12vh;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .description {
+    padding: 1em 2.5em;
+    font-size: 1.588rem;
+    line-height: 1.9rem;
+  }
+
+  .title-exp,
+  .title-edu,
+  .title-certif,
+  .title-skills,
+  .title-lang,
+  .contact {
+    font-size: 4.5rem;
+  }
+
+  .edu1,
+  .edu2,
+  .edu3 {
+    padding-left: 9rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  section .txt {
+    margin-top: 12vh;
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+
+  .description {
+    padding: 1em 2.5em;
+    font-size: 1.588rem;
+    line-height: 1.9rem;
+  }
+
+  .title-exp,
+  .title-edu,
+  .title-certif,
+  .title-skills,
+  .title-lang,
+  .contact {
+    font-size: 5rem;
+  }
+
+  .edu1,
+  .edu2,
+  .edu3 {
+    padding-left: 4rem;
+  }
+}

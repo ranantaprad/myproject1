@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/** Mobile Phone */
+@media (max-width: 576px) {
+  /** Header */
+  .heading h2 {
+    font-size: 60px;
+    line-height: 65px;
+    margin-top: 50%;
+    font-family: 'Teko', sans-serif;
+  }
+
+  /** Contacts */
+
+  .contacts a {
+    margin: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /** Jumbotron */
+  .jumbo {
+    margin-top: 300px;
+  }
+
+  .jumbo .title {
+    padding-top: 3rem;
+    font-size: 4rem;
+    line-height: 3rem;
+    font-family: 'Teko',sans-serif;
+  }
+
+  .jumbo .desc, .jumbo .desc2 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    padding: 0 60px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .jumbo .button1 {
+    margin: 1.5rem 0 3rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .jumbo .arrow {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  /** Content */
+  .content .blog_title {
+    font-size: 4rem;
+    line-height: 3rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .content_main {
+    margin: 15px;
+    height: 100%;
+    padding: 1.5rem;
+  }
+
+  .content_main h1, 
+  .content_main h2, 
+  .content_main h3, 
+  .content_main h4, 
+  .content_main p, 
+  .read, 
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .content_main h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+  .content_main h2 {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+  }
+
+  .content_main h3 {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .content_main h4 {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+  .content_main p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .read {
+    margin-top: 3rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /** Footer */
+  footer {
+    margin-top: 4rem;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+/*! Tablet */
+@media (min-width: 576px) and (max-width: 768px) {
+  /** Header */
+  .heading h2 {
+    font-size: 75px;
+    line-height: 80px;
+    margin-top: 30%;
+    font-family: 'Teko', sans-serif;
+  }
+
+  /** Contacts */
+  .contacts a {
+    margin-top: 25px;
+    margin-left: 1rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /** Jumbotron */
+  .jumbo {
+    margin-top: 300px;
+  }
+
+  .jumbo .title {
+    font-size: 65px;
+    line-height: 70px;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .jumbo .desc, .jumbo .desc2 {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .jumbo .button1 {
+    padding: 0.5rem 1rem;
+    font-size: 1.35rem;
+    line-height: 1.85rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .jumbo .arrow {
+    font-size: 1.35rem;
+    line-height: 1.85rem;
+  }
+
+  /** Content */
+  .content .blog_title {
+    margin-top: 2.3rem;
+    font-size: 65px;
+    line-height: 70px;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .content_main {
+    padding: 2rem;
+    margin: 5%;
+    height: 100%;
+  }
+
+  .content_main h1, 
+  .content_main h2, 
+  .content_main h3, 
+  .content_main h4, 
+  .content_main p, 
+  .read, 
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .content_main h1 {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+  }
+
+  .content_main h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .content_main h3 {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  .content_main h4 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+  .content_main p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .read {
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  /** Footer */
+  footer {
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 4rem;
+  }
+}
+
+/*! Laptop */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /** Header */
+  .heading h2 {
+    font-size: 85px;
+    line-height: 105px;
+    margin-top: 30vh;
+    font-family: 'Teko', sans-serif;
+  }
+
+  /** Contacts */
+  .contacts a {
+    margin-top: 25px;
+    margin-left: 1rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /** Jumbotron */
+  .jumbo {
+    margin-top: 300px;
+  }
+
+  .jumbo .title {
+    font-size: 70px;
+    line-height: 75px;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .jumbo .desc, .jumbo .desc2 {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .jumbo .button1 {
+    padding: 0.5rem 1rem;
+    font-size: 1.35rem;
+    line-height: 1.85rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .jumbo .arrow {
+    font-size: 1.35rem;
+    line-height: 1.85rem;
+  }
+
+  /** Content */
+  .content .blog_title {
+    margin-top: 2.3rem;
+    font-size: 70px;
+    line-height: 75px;
+    font-family: 'Teko', sans-serif;
+  }
+
+  .content_main {
+    padding: 2rem;
+    margin: 3%;
+    height: 100%;
+  }
+
+  .content_main h1, 
+  .content_main h2, 
+  .content_main h3, 
+  .content_main h4, 
+  .content_main p, 
+  .read, 
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .content_main h1 {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+  }
+
+  .content_main h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .content_main h3 {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    float: left;
+  }
+
+  .content_main h4 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  float: right;
+}
+
+  .content_main p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .read {
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  /** Footer */
+  footer {
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 4rem;
+  }
+}
+
+/*! Big Screen */
+@media (min-width: 1024px) and (max-width: 1280px) {
+/** Header */
+.heading h2 {
+  font-size: 105px;
+  line-height: 110px;
+  margin-top: 35vh;
+  font-family: 'Teko', sans-serif;
+}
+
+/** Contacts */
+.contacts a {
+  margin-top: 25px;
+  margin-left: 1rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/** Jumbotron */
+.jumbo {
+  margin-top: 300px;
+}
+
+.jumbo .title {
+  font-size: 75px;
+  line-height: 80px;
+  font-family: 'Teko', sans-serif;
+}
+
+.jumbo .desc, .jumbo .desc2 {
+  padding: 0 130px;
+  font-size: 21px;
+  line-height: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbo .button1 {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbo .arrow {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+/** Content */
+.content .blog_title {
+  margin-top: 2rem;
+  font-size: 75px;
+  line-height: 80px;
+  font-family: 'Teko', sans-serif;
+}
+
+.content_main {
+  padding: 4rem;
+  margin: 30px 130px;
+  height: 100%;
+}
+
+.content_main h1,
+.content_main h2, 
+.content_main h3, 
+.content_main h4, 
+.content_main p, 
+.read, 
+footer {
+  font-family: 'Poppins', sans-serif;
+  }
+
+.content_main h1 {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  font-weight: 700;
+}
+
+.content_main h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
+
+.content_main h3 {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.content_main p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.read {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+/** Footer */
+footer {
+  font-size: 12px;
+  line-height: 17px;
+  margin-top: 4rem;
+}

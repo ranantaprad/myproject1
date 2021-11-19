@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@media (max-width: 576px) {
+  .content {
+    margin-top: 50px;
+    padding: 0 3rem;
+  }
+
+  section h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    overflow-wrap: break-word;
+  }
+
+  section h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    overflow-wrap: break-word;
+  }
+
+  section h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    float: left;
+    overflow-wrap: break-word;
+  }
+
+  section h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    float: right;
+    overflow-wrap: break-word;
+  }
+
+  section p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #374151;
+    overflow-wrap: break-word;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .content {
+    margin-top: 50px;
+    padding: 0 4rem;
+  }
+
+  section h1 {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    font-weight: 700;
+    overflow-wrap: break-word;
+  }
+
+  section h2 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+    overflow-wrap: break-word;
+  }
+
+  section h3 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    float: left;
+    overflow-wrap: break-word;
+  }
+
+  section h4 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    float: right;
+    overflow-wrap: break-word;
+  }
+
+  section p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #374151;
+    overflow-wrap: break-word;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    margin-top: 50px;
+    padding: 0 4rem;
+  }
+
+  section h1 {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    font-weight: 700;
+    overflow-wrap: break-word;
+  }
+
+  section h2 {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-weight: 500;
+    overflow-wrap: break-word;
+  }
+
+  section h3 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    float: left;
+    overflow-wrap: break-word;
+  }
+
+  section h4 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    float: right;
+    overflow-wrap: break-word;
+  }
+
+  section p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #374151;
+    overflow-wrap: break-word;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .content {
+    margin-top: 50px;
+    padding: 0 12rem;
+  }
+
+  section h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    overflow-wrap: break-word;
+  }
+
+  section h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    overflow-wrap: break-word;
+  }
+
+  section h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    float: left;
+    overflow-wrap: break-word;
+  }
+
+  section h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    float: right;
+    overflow-wrap: break-word;
+  }
+
+  section p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #374151;
+    overflow-wrap: break-word;
+  }
+}
